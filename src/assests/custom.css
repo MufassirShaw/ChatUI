@@ -1,0 +1,71 @@
+/* color
+    primary : #512da8
+    secondary : #3f51b5
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.App{
+    background: url('./imgs/bg.png') repeat;
+    height: 100vh;
+}
+.avatarContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+.sendIcon{
+    background-image: url("./imgs/btn.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* background-size: auto 100%; */
+
+
+}
+.currentThread{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    border: solid;
+    height: 480px;
+}
+.currentChat p{
+    border:solid cyan;
+}
+
+.avatar{
+    background-image: url("./imgs/login.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+    border:#512da8;
+    padding: 5px;
+    
+}
+.logout{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    padding:5px;
+    margin: 0 5px;
+    background-image: url('./imgs/logout.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* .user:active{
+    background: rgb(235, 235, 235);
+}
+.user:active .user:hover{
+    background: #fff;
+} */
